@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--encodage actuel -->
+    <!-- balise meta qui précise que la largeur de base de notre document équivaut à la largeur totale de l'écran // sera utile lorsqu'on passera en view mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recap HTML</title>
+</head>
+<body>
+    <div>Je suis une div</div>
+    <h1>Titre principal</h1>
+    <h2>Sous-titre</h2>
+    <h3>Sous sous-titre</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam labore excepturi perspiciatis officia <span style="color: blueviolet;">voluptate</span> quaerat hic molestias eaque, vitae provident aspernatur inventore eos dignissimos deserunt eum ducimus. Nam, dolor qui.</p>
+
+    <section>
+        <h2>Titre section</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, vitae? Nostrum adipisci nobis quos. Culpa, aperiam debitis, minima asperiores voluptates deleniti, sunt expedita ullam praesentium sequi impedit quae velit cum!</p>
+    </section>
+
+    <ul> <!-- liste non ordonnée -->
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>Vue.js</li>   
+    </ul>
+
+    <ol> <!-- liste ordonnée -->
+        <li>pomme</li>
+        <li>pêche</li>
+        <li>poire</li>
+        <li>abricot</li>   
+    </ol>
+
+    <button>Start</button> 
+
+    <nav> <!-- balise nav est destinée à contenir des liens vers d'autres pages ou sections du site, facilitant ainsi la navigation pour les utilisateurs.(exemple barre menu) -->
+        <a href="https://example.com/">Cliquez ici</a>
+        <a href="mailto:m.bluth@example.com">Email</a>
+        <a href="tel:+123456789">Phone</a>
+    </nav> 
+
+    <!-- les input servent aux formulaires -->
+<form>
+    <!-- required permet d'indiquer à l'internaute que ce champ est requis -->
+    <input type="text" name="email" placeholder="Rentrez votre email"required/> 
+    <input type="password" name="password"/>
+    <!-- le label active l'input newsletter et le checkbox -->
+    <label for="newsletter">Voulez-vous vous abonner à notre newsletter"</label>
+    <!-- l'input de type checkcbox permet de cocher, de confirmer un choix-->
+    <input type="checkbox" name="newsletter" id="newsletter"/>
+    <!-- id doit toujours être unique, il ne peut pas pas y avoir d'autres id du même nom -->
+     <!-- le button submit permet de déclencher l'intégralité de mon formulaire qui est entre les balises <form> -->
+     <button type="submit">Envoyez le formulaire</button>
+     <br>
+     <br>
+     <!-- textarea sert au formulaire multi-ligne -->
+     <textarea rows="5" cols="33" name="..."></textarea>
+</form>
+
+<!-- Chemin relatif -->
+<img src="https://cdn.pixabay.com/photo/2019/12/17/07/10/christmas-pictures-4700935_1280.jpg" alt="wallpaper deco christmas tree" width="500px"/>
+
+<!-- Chemin absolu -->
+ <!-- Toujours mettre les images dans le même dossier que le fichier html-->
+<img src="Assets/mulled-wine-6783665_1280.jpg" alt="Image par V Müller de Pixabay" width="200px"/>
+
+<!-- menu déroulant <select> permet à l'utilisateur de sélectionner unseul choix parmi les options proposées -->
+<select name="pets">
+    <option value="">Choose an animal</option>
+    <option value="cat">cat</option>
+    <option value="dog">dog</option>
+    <option value="parot">parot</option>
+</select>
+</body>
+</html>
+

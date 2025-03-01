@@ -1,0 +1,39 @@
+body {
+  padding-top: 20px;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0px auto;
+  border: 3px dotted black;
+  padding: 30px 10px 10px 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.box1 {
+  border: 2px solid rgb(63, 108, 233);
+  background-color: #d7e9f9;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  border: 2px solid red;
+  background-color: #f9d7d6;
+  padding: 20px 0px;
+  margin: 0px 20px;
+}
+
+.box3 {
+  border: 2px solid rgb(42, 181, 42);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.box3 p {
+  padding: 20px;
+  background-color: #d6f9d6;
+}

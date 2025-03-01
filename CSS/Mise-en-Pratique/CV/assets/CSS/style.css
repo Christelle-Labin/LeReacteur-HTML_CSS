@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    margin: 20px auto;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 30px;
+}
+
+header {
+    background-color: #333333;
+}
+
+.profil {
+    margin: 20px;
+    border: dotted black 3px;
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.profil, section > div {
+    line-height: 30px;
+}
+
+.biographie, .competences {
+    margin: 20px;
+}
+
+ul {
+    margin: 30px;
+    list-style-type: disc;
+    line-height: 30px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

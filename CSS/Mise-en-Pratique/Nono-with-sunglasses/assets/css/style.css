@@ -1,0 +1,79 @@
+/* Box-sizing => permet de maîtriser à 100% la taille de tous mes éléments */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-family: 35px;
+  text-align: center;
+  margin: 50px;
+}
+
+h2 {
+  color: white;
+  background-color: #720172;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 15px 0px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  width: calc(100% - 20px);
+  z-index: 1;
+}
+
+section {
+  border: 2px solid black;
+  width: 400px;
+  height: 575px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+/*    scroll-content   */
+
+/* scroll interne sans modifier le comportement du titre principal */
+.scroll-content {
+  height: 100%;
+  overflow: scroll;
+  padding-top: 60px;
+}
+
+.scroll-content img:first-child {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.scroll-content img:nth-child(2) {
+  width: 130px;
+  position: absolute;
+  top: 23px;
+  left: 118px;
+}
+
+/*    relativ   */
+
+.relativ {
+  position: relative;
+}
+
+h3 {
+  background-color: #84eb84;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 5px solid white;
+  position: sticky;
+  top: 0;
+}
+
+p {
+  padding: 10px 0;
+}

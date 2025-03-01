@@ -1,0 +1,62 @@
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.test {
+    color: green;
+}
+
+.giant {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.test, 
+.giant {
+    text-decoration: underline;
+}
+
+#blue-text {
+    color: blueviolet;
+}
+
+ul .test {
+    font-size: 60px;
+}
+
+/* div pointe en direction de p c'est à dire que div parent pointe vers l'enfant p */
+div > div {
+    color: red;
+}
+
+div > section > p {
+    color: chocolate;
+}
+
+/* l'attribut s'applique directement au dessous d'une div */
+div + span {
+    color: blue;
+}
+
+/* pseudo classe souris qui s'apllique lors du survol de la souris */
+.test-pseudo-classe:hover {
+    color: red;
+}
+
+p:hover {
+    color: purple;
+}
+
+ol li:first-child {
+    color: blue;
+}
+
+ol li:last-child {
+    color: greenyellow;
+}
+
+li:first-child {
+    font-size: 40px;
+}

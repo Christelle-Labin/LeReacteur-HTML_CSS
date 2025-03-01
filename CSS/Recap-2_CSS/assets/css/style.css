@@ -1,0 +1,56 @@
+/*  CSS de base    */
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*   --- Propriété Border ---    */
+
+h1 {
+    margin: 30px auto;
+    text-align: center;
+/*  border: solid 2px black;*/
+/*  border-style: solid; (type de bordure: solid = plein / dotted = pointillé / dashed = tirets)
+    border-width: 2 px; (épaisseur de la bordure)
+    border-color: black;   */
+/*  border-radius: 10px;  (angle bordure arrondie en px ou en %)    */
+    /* border-radius: 50px 5px 0px 10px; */
+}
+
+.div-for-test {
+    border: 2px blue solid;
+    height: 100px; 
+    width: 500px;
+    background-color: pink;
+}
+
+section:first-of-type div:last-child {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.scnd-section {
+    border: 3px solid lightblue;
+    /* margin-top: 30px; */
+    margin: 30px 20px;
+    /* border-radius: 20px 0px; */
+    padding: 30px;
+    /* background-color: antiquewhite; */
+    /* Afin d'obtenir la bonne dimension souhaité, il est impératif d'ajouter box-sizing */
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0px auto;
+    border: 3px dashed black;
+}
